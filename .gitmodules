@@ -1,0 +1,3 @@
+[submodule "repo-dispatch-test"]
+	path = repo-dispatch-test
+	url = https://github.com/evgeniy-scherbina/repo-dispatch-test
