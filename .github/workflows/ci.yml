@@ -21,6 +21,7 @@ jobs:
           repository: evgeniy-scherbina/repo-dispatch-test
           event-type: my-event
 
-
+      - name: Setup tmate session
+        uses: mxschmitt/action-tmate@v3
 
 
