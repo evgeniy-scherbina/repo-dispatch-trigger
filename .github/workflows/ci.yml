@@ -20,6 +20,7 @@ jobs:
           token: ${{ secrets.CI_GITHUB_ACCESS_TOKEN }}
           repository: evgeniy-scherbina/repo-dispatch-test
           event-type: my-event
+          client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
 
 #      - name: Setup tmate session
 #        uses: mxschmitt/action-tmate@v3
