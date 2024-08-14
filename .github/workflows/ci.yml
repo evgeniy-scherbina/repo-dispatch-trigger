@@ -19,7 +19,7 @@ jobs:
         with:
           token: ${{ secrets.CI_GITHUB_ACCESS_TOKEN }}
           repository: evgeniy-scherbina/repo-dispatch-test
-          event-type: my-event
+          event-type: repo-dispatch-trigger-commit
           client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
 
 #      - name: Setup tmate session
